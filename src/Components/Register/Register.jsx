@@ -37,28 +37,28 @@ const handleSubmit = (e)=>{
           </div>
           
           <form className='mt-8  w-12/12 flex flex-col gap-4 items-center justify-center ' onSubmit={handleSubmit}>
-           <div className='flex flex-col w-8/12 text-white text-lg'>
+           <div className='flex flex-col gap-1 w-8/12 text-white text-lg'>
            
-           <label>Username</label>
-            <input type='text' className='text-black bg-transparent outline-none border-b-2  border-green-500'></input>
+           <label className='text-label'>Username</label>
+            <input type='text' className='text-black bg-transparent outline-none border-b-2  border-green-500 text-white'></input>
            </div>
             
-           <div className='flex flex-col w-8/12 text-white text-lg'>
+           <div className='flex  gap-1 flex-col w-8/12 text-white text-lg'>
            
-           <label>Email</label>
-            <input type='email' className='text-black bg-transparent outline-none border-b-2  border-green-500'></input>
+           <label className=' text-label '>Email</label>
+            <input type='email' className='text-black bg-transparent outline-none border-b-2  border-green-500 text-white'></input>
            </div>
-           <div className='flex flex-col w-8/12 text-white text-lg'>
+           <div className='flex  gap-1 flex-col w-8/12 text-white text-lg'>
            
-           <label>Password</label>
-            <input type='password' className='text-black bg-transparent outline-none border-b-2  border-green-500'></input>
+           <label className=' text-label'>Password</label>
+            <input type='password' className='text-black bg-transparent outline-none border-b-2  border-green-500 text-white'></input>
            </div>
-           <div className='flex flex-col w-8/12 text-white text-lg'>
+           <div className='flex  gap-1 flex-col w-8/12 text-white text-lg'>
            
-           <label>Confirm Password</label>
-            <input type='password' className='text-black bg-transparent outline-none border-b-2  border-green-500'></input>
+           <label className=' text-label'>Confirm Password</label>
+            <input type='password' className='text-black bg-transparent outline-none border-b-2  border-green-500 text-white'></input>
            </div>
-           <button className=' w-7/12 mt-4 p-2 rounded-md text-white bg-emerald-500  hover:-translate-y-2 transition-all duration-300 ease-linear hover:bg-teal-500' type='submit'>Sign Up</button>
+           <button className=' w-7/12 mt-4 p-2 rounded-md text-white bg-emerald-500  hover:-translate-y-2 transition-all duration-300 ease-linear text-white hover:bg-teal-500' type='submit'>Sign Up</button>
           </form>
         </div>
       </div>
