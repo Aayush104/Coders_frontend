@@ -33,12 +33,12 @@ const Login = () => {
           </div>
           <form className='mt-16 w-12/12 flex flex-col gap-6 items-center justify-center' onSubmit={handleSubmit}>
             
-            <div className='flex gap-1 flex-col w-8/12 text-white text-lg'>
-              <label className=' text-label'>Email</label>
+            <div className='flex gap-1 flex-col w-8/12 text-white text-md_text'>
+              <label className='text-label'>Email</label>
               <input type='email' className=' bg-transparent outline-none border-b-2 border-green-500 text-white' />
             </div>
-            <div className='flex flex-col gap-1  w-8/12 text-white text-lg'>
-              <label className=' text-label'>Password</label>
+            <div className='flex flex-col gap-1  w-8/12 text-white text-md_text'>
+              <label className='text-label'>Password</label>
               <input type='password' className=' bg-transparent outline-none border-b-2 border-green-500 text-white' />
             </div>
            

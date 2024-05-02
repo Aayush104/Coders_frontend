@@ -32,7 +32,7 @@ module.exports = {
         'large':'2.5rem',
         'w_lg':'2.7rem',
         'medium':'2.2rem',
-        'label':'1rem',
+        'label':'0.9rem',
         'sm_text':'0.5rem',
         'md_text': '1rem'
       },
