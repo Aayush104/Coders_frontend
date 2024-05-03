@@ -24,14 +24,14 @@ const Login = () => {
           </div>
         </div>
         <div className='bg-slate-800 m-mobile:w-8/12 mobile:mx-auto mobile:w-10/12 lg:w-6/12 py-10 '>
-          <div className='flex flex-col justify-center items-center'>
+          <div className='mt-24 flex flex-col justify-center items-center'>
             <p className='text-white capitalize text-medium font-bold'>get Started</p>
             <div className='flex gap-1 pl-4'>
               <span className='text-white text-center capitalize'>Create An  account?</span>
               <span className='text-emerald-600 font-semibold cursor-pointer hover:text-green-500' onClick={changePage}>Sign Up</span>
             </div>
           </div>
-          <form className='mt-16 w-12/12 flex flex-col gap-6 items-center justify-center' onSubmit={handleSubmit}>
+          <form className='mt-8 w-12/12 flex flex-col gap-6 items-center justify-center' onSubmit={handleSubmit}>
             
             <div className='flex gap-1 flex-col w-8/12 text-white text-md_text'>
               <label className='text-label'>Email</label>
